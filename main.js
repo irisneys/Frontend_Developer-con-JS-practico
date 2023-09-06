@@ -80,7 +80,7 @@ productList.push({
 });
 
 function renderProducts (arr){
-  /*recorremos el arra con of tambien lo puedes hacer con in pero te mostaria los indice  */
+  /*recorremos el array con of tambien lo puedes hacer con in pero te mostaria los indice  */
   for (product of arr) {
     const productCard = document.createElement("div"); //permite crear cada elemento dinamicamente del HTML pero utilizando JS
     productCard.classList.add("product-card");
