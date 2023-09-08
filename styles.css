@@ -27,6 +27,8 @@ nav {
 
 .menu {
     display: none;
+    cursor: pointer
+
 }
 
 .logo {
@@ -71,10 +73,16 @@ nav {
     cursor: pointer;
     font-size: var(--sm);
     margin-right: 12px;
+    cursor: pointer
+}
+
+.navbar-shopping-cart img{
+    cursor: pointer;
 }
 
 .navbar-shopping-cart {
     position: relative;
+    
 }
 
 .navbar-shopping-cart div {
@@ -90,6 +98,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 /*menu del desktop*/
@@ -114,11 +123,13 @@ nav {
 
 .desktop-menu ul li {
     text-align: end;
+    
 }
 
 .desktop-menu ul li:nth-child(1),
 .desktop-menu ul li:nth-child(2) {
     font-weight: bold;
+    
 }
 
 .desktop-menu ul li:last-child {
@@ -130,6 +141,8 @@ nav {
     color: var(--hospital-green);
     font-size: var(--sm);
 }
+
+
 
 .desktop-menu ul li a {
     color: var(--back);
@@ -366,6 +379,7 @@ aside{
 
 .product-card {
     width: 240px;
+    cursor: pointer;
 }
 
 .product-card img {
